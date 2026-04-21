@@ -16,26 +16,28 @@ I applied a two-stage analytical process using Microsoft Excel's Data Analysis T
 
 ## 3. 📊 Visual Impact & The "How" (The Proof)
 
-### A. Performance & Dispersion Summary
-This audit table compares the raw performance of both blends, highlighting that Blend B has both a higher average and lower dispersion.
-![Statistical Summary](stats_summary.png)
-*How:* Utilised `=STDEV.S` and `=MEDIAN` functions to contrast the 7.22 average of Blend A against the superior 8.01 of Blend B.
-
-### B. Hypothesis Validation Logic
+### A. Hypothesis Validation Logic
 I established a rigorous framework to ensure the results were not due to random chance.
 ![Hypothesis Logic](hypothesis_logic.png)
 *How:* Defined the Null Hypothesis ($H_0$) as "No significant difference" to maintain an unbiased baseline before proving the Alternative ($H_1$).
 
+### B. Performance & Dispersion Summary
+This audit table compares the raw performance of both blends, highlighting that Blend B has both a higher average and lower dispersion.
+![Statistical Summary](stats_summary.png)
+*How:* Utilised `=STDEV.S` and `=MEDIAN` functions to contrast the 7.22 average of Blend A against the superior 8.01 of Blend B.
+
 ## 4. 💡 Strategic Recommendations & ROI Roadmap
-Based on the validated data, I have proposed two strategic solutions to maximise ROI:
+Based on the validated data, I have proposed two strategic solutions to maximise business performance:
 
 ### Solution 1: Market Prioritisation (The Winning Bet)
-*   **The Data:** Blend B achieved a higher mean (8.01) and showed significantly **lower dispersion** (IQR: 1.275).
-*   **The Action:** Immediate national rollout of **Blend B**. Because it is more consistent, the business reduces the "Quality Risk" and ensures higher repeat-purchase rates compared to the more volatile Blend A.
+*   **The Data:** Blend B achieved a higher average satisfaction score (8.01) and showed much tighter consistency in customer feedback (meaning the scores were more closely grouped together).
+*   **The Action:** Focus the national launch entirely on **Blend B**.
+*   **The ROI:** Higher customer retention. Because the data proves Blend B provides a more "stable" and "predictable" experience, the business reduces the risk of negative customer reviews and increases the likelihood of repeat purchases.
 
-### Solution 2: Resource Optimisation (Inventory Efficiency)
-*   **The Data:** Probability analysis ($P=0.9$ combined preference) shows that a dual-launch is redundant.
-*   **The Action:** Reallocate the manufacturing and marketing budget from Blend A into a high-intensity "Blend B" launch campaign. This reduces "SKU Proliferation" and streamlines the supply chain, saving an estimated 15% in operational complexity costs.
+### Solution 2: Operational Efficiency (Supply Chain Simplification)
+*   **The Data:** Probability analysis (**$P=0.9$**) proves that 90% of the target market is already satisfied by these two options.
+*   **The Action:** Cancel the production of Blend A and reallocate that budget to double the marketing intensity for Blend B.
+*   **The ROI:** By choosing only the most popular and consistent blend, the business avoids **unnecessary inventory clutter**. This saves the cost of managing, packaging, and storing two different products that serve the same purpose, allowing the company to focus all its resources on the "Winning" product for a higher profit margin.
 
 ---
 
