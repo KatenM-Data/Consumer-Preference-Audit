@@ -1,63 +1,74 @@
 # ☕ Consumer Preference Statistical Audit (A/B Testing)
-**The Goal:** Utilise Inferential Statistics and probability modelling to determine which of two new product variations (Blend A or Blend B) demonstrates a statistically superior consumer preference, enabling data-driven product launching and marketing prioritisation.
+
+![Statistical Summary](stats_summary.png)
+
+## 🎯 The Goal & Business ROI
+A retail chain required a data-validated decision on which of two new product variations (Blend A or Blend B) to launch nationally. Relying on subjective "average scores" alone was deemed high-risk due to potential outliers and data dispersion.
+
+*   **The Objective:** Conduct a rigorous statistical audit to identify the "Winning Blend" and measure the consistency of consumer satisfaction.
+*   **The ROI:** Eliminated product-launch guesswork by providing **mathematical proof** of preference, ensuring marketing capital is allocated only to the most stable, high-performing product.
 
 ---
 
-## 1. 🎯 The Problem Statement (The Objective)
-A retail chain introduced two competing coffee blends and needed to decide which one to roll out nationally. Relying on subjective feedback or "average scores" alone is risky, as a high average can often be skewed by outliers or masked by high volatility (dispersion).
-*   **The Issue:** The business needed to know not just which blend scored higher, but which one was **consistently preferred** by the target demographic.
-*   **The Objective:** Conduct a rigorous statistical audit to identify the "Winning Blend" and measure the consistency of consumer satisfaction.
+## 💡 Strategic Recommendations & ROI Roadmap
+*Summary: Moving the product strategy from "Subjective Opinion" to "Mathematical Certainty."*
 
-## 2. 🧠 The Approach (What I did & Why)
-I applied a two-stage analytical process using Microsoft Excel's Data Analysis Toolpak:
-*   **Descriptive Audit:** Calculated the Mean, Median, and Mode for both samples. **Why:** To identify the "Central Tendency." I prioritised the **Median** for its resistance to extreme outliers.
-*   **Volatility Analysis:** Measured the **Interquartile Range (IQR)** and **Standard Deviation**. **Why:** To identify which blend offered the most "stable" experience. I identified that Blend B had lower dispersion, meaning it is more likely to provide a predictable customer experience.
-*   **Probability Modelling:** Applied **Poisson Distribution** logic to model customer arrival rates and used multiplication/addition rules to forecast future consumer choices.
-
-## 3. 📊 Visual Impact & The "How" (The Proof)
-
-### A. Hypothesis Validation Logic
-I established a rigorous framework to ensure the results were not due to random chance.
-![Hypothesis Logic](hypothesis_logic.png)
-*How:* Defined the Null Hypothesis ($H_0$) as "No significant difference" to maintain an unbiased baseline before proving the Alternative ($H_1$).
-
-### B. Performance & Dispersion Summary
-This audit table compares the raw performance of both blends, highlighting that Blend B has both a higher average and lower dispersion.
-![Statistical Summary](stats_summary.png)
-*How:* Utilised `=STDEV.S` and `=MEDIAN` functions to contrast the 7.22 average of Blend A against the superior 8.01 of Blend B.
-
-## 4. 💡 Strategic Recommendations & ROI Roadmap
-Based on the validated data, I have proposed two strategic solutions to maximise business performance:
+<details>
+<summary><b>▶ Click to expand: Data-Validated Business Solutions</b></summary>
 
 ### Solution 1: Market Prioritisation (The Winning Bet)
-*   **The Data:** Blend B achieved a higher average satisfaction score (8.01) and showed much tighter consistency in customer feedback (meaning the scores were more closely grouped together).
-*   **The Action:** Focus the national launch entirely on **Blend B**.
-*   **The ROI:** Higher customer retention. Because the data proves Blend B provides a more "stable" and "predictable" experience, the business reduces the risk of negative customer reviews and increases the likelihood of repeat purchases.
+**The Data:** Blend B achieved a superior average (8.01) and showed significantly **tighter consistency** (lower Standard Deviation) than Blend A.
+*   **The Action:** Focus the national rollout entirely on **Blend B**.
+*   **The ROI:** Higher customer retention. By choosing the "stable" blend, the business reduces the risk of negative reviews and ensures a predictable customer experience.
 
 ### Solution 2: Operational Efficiency (Supply Chain Simplification)
-*   **The Data:** Probability analysis (**$P=0.9$**) proves that 90% of the target market is already satisfied by these two options.
-*   **The Action:** Cancel the production of Blend A and reallocate that budget to double the marketing intensity for Blend B.
-*   **The ROI:** By choosing only the most popular and consistent blend, the business avoids **unnecessary inventory clutter**. This saves the cost of managing, packaging, and storing two different products that serve the same purpose, allowing the company to focus all its resources on the "Winning" product for a higher profit margin.
+**The Data:** Probability modelling (**P=0.9**) proves that 90% of the target market is satisfied by these two options alone.
+*   **The Action:** Decommission Blend A and reallocate its production/marketing budget to Blend B.
+*   **The ROI:** Avoids **inventory clutter**. Saves costs on packaging, storage, and logistics by focusing on a single high-margin "Winner."
+</details>
 
 ---
 
-## 5. 🧬 The Technical Deep-Dive
-*   **Tool:** Microsoft Excel (Data Analysis Toolpak).
-*   **Key Statistical Methods:** Two-Sample T-Tests, Probability Rules (Independent & Mutually Exclusive events), Normal Distribution, and Poisson Distribution.
-*   **Best Practice:** Implemented strict spreadsheet integrity by labelling all variables and separating raw data from calculation cells.
+## 📊 Performance & Volatility Analysis
+To ensure the results were not the result of random chance, I established a rigorous Hypothesis framework and conducted a full descriptive audit.
+
+![Hypothesis Logic](hypothesis_logic.png)
+*(Above: The formulated Hypothesis logic used to maintain an unbiased baseline.)*
+
+### The Statistical Translation (Why Blend B Wins)
+While the raw output (top of page) contains the full statistical engine, the business translation is as follows:
+
+| Metric | Coffee Blend A | Coffee Blend B | The Business Translation |
+| :--- | :--- | :--- | :--- |
+| **Average (Mean)** | 7.22 | **8.01** | Blend B scores ~11% higher overall |
+| **Median** | 7.20 | **8.05** | Blend B's true center is higher |
+| **Interquartile Range (IQR)**| 1.45 | **1.27** | *Blend B has tighter consistency* |
+| **Standard Deviation** | 1.13 | **1.04** | *Blend B has lower volatility (lower risk)* |
+
+*   **Central Tendency:** Prioritised the **Median** over the Mean to ensure the audit was resistant to extreme outliers.
+*   **Volatility Analysis:** Utilised **Standard Deviation** and **Interquartile Range (IQR)** to identify the "Risk Profile" of each blend. Lower dispersion makes Blend B the mathematically "safer" bet.
 
 ---
 
-## 6. 🏆 Project Impact & Core Competencies
-This project successfully moved the product strategy from "Guesswork" to **"Mathematical Certainty,"** demonstrating the following technical and strategic competencies:
-*   **Statistical Fluency:** Proven ability to differentiate between Mean, Median, and Mode to identify the "True" trend.
-*   **Risk Mitigation:** Used Standard Deviation and IQR to measure and reduce business volatility.
-*   **Commercial Logic:** Ability to translate abstract $p$-values and probabilities into actionable inventory and marketing decisions.
+## 🛠️ The Technical Engine (Excel)
+While many use Excel for simple lists, I utilised the **Data Analysis Toolpak** to conduct a professional-grade quantitative audit.
 
-## 7. ⚙️ Setup & Reproduction
-1. Download the `Statistical_Analysis_Katen.xlsx` file.
-2. Review the **Summary Statistics** tab to see the formulaic links.
-3. Raw data is available in the first two columns for independent verification.
+*   **Core Methods:** Two-Sample T-Tests, Probability Rules (Independent/Mutually Exclusive), and Normal Distribution modelling.
+*   **Auditability:** Implemented strict spreadsheet architecture, separating raw data from calculation engines to ensure full financial compliance and traceability.
+
+---
+
+## 🏆 Core Competencies Demonstrated
+*   **Statistical Fluency:** Ability to move beyond "Averages" to identify true trends using Standard Deviation and Variance.
+*   **Risk Mitigation:** Used volatility metrics to protect the business from "unstable" product choices—a direct crossover from my quantitative trading background.
+*   **Commercial Logic:** Proven ability to translate abstract variables ($p < 0.05$) and probability into actionable **Inventory and Marketing decisions**.
+
+---
+
+## ⚙️ Setup & Reproduction
+1.  Download the `Statistical_Analysis_Katen.xlsx` file.
+2.  Review the **Summary Statistics** tab to inspect the formulaic links, raw Toolpak outputs, and hypothesis logic.
+3.  *Note: All data has been anonymised to maintain privacy standards.*
 
 ---
 *This project was completed as part of the Professional Certificate in Data Analytics & AI (Code Institute).*
